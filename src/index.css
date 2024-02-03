@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  scroll-behavior: smooth;
+}
+:root {
+  --bg-py:#7000ff;
+  --bg-sy: #f2f4f7;
+  --bg-gold: #fdfe00;
+}
+.container {
+  max-width: 1250px;
+  margin: auto;
+}
+li {
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 6px;
+  background-color: #c7c0c0;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--bg-py);
+  border-radius: 10px;
+  border: 2px solid #c7c0c0;
+  transition: .5s;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #5b08c7;
+}::-webkit-scrollbar-thumb:active {
+  background-color: #370775;
+
+}
+@media screen and (max-width: 1280px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+@media (max-width: 1140px) {
+::-webkit-scrollbar {
+  width: 4px;
+}
+}

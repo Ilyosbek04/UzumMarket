@@ -1,0 +1,31 @@
+.sub__header{
+    width: 100%;
+    height: 32px;
+    background: var(--bg-sy);
+}
+.sub__header div{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+.sub__header-title{
+    color: #777;
+}
+
+@media screen and (max-width:990px){
+    .sub__header-title{
+        display: none;
+    }
+}
+@media screen and (max-width:600px){
+    .sub__header{
+        display: none;
+    }
+}
+@media (max-width: 900px) {
+    .sub__header {
+        display: none;
+    }
+}

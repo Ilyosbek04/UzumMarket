@@ -1,0 +1,37 @@
+.empty{
+    text-align: center;
+    padding: 100px 0;
+}
+.empty p{
+    padding: 16px 0;
+    color: #555;
+}
+.empty button{
+    padding: 10px 20px;
+    background: var(--bg-py);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+@media (max-width: 426px) {
+    .empty h2 {
+        font-size: 22px;
+    }
+}
+@media (max-width: 380px) {
+    .empty h2 {
+        font-size: 20px;
+    }
+    .empty p {
+        font-size: 14px;
+    }
+}
+@media (max-width: 340px) {
+    .empty h2 {
+        font-size: 18px;
+    }
+    .empty p {
+        font-size: 12px;
+    }
+}

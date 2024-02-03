@@ -1,0 +1,109 @@
+.login__wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: #f1f1f1;
+}
+
+.login__page {
+  width: 300px;
+  height: 340px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  box-shadow: 0 0 10px #0002;
+  position: relative;
+}
+
+.login__page h2 {
+  font-size: 16px;
+  padding: 10px 0 0;
+}
+
+.login__page .inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.login__page .inputs input {
+  width: 100%;
+  height: 35px;
+  border: 1.5px solid var(--bg-py);
+  outline: none;
+  text-indent: 20px;
+  border-radius: 8px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.login__page .inputs input::placeholder {
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+}
+
+.login__page .link__enter {
+  width: 100%;
+  height: 40px;
+  border-radius: none;
+  background-color: var(--bg-py);
+  color: #fff;
+  font-family: sans-serif;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0 0;
+}
+
+.checkbox__input {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkbox__input p {
+  font-size: 14px;
+}
+
+.login__page .link__home {
+  border: none;
+  text-decoration: underline;
+  color: var(--bg-py);
+  text-align: center;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 700px) {
+  .login__page {
+    width: 300px;
+  }
+
+  .login__page h2 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 390px) {
+  .login__page {
+    width: 250px;
+    height: 320px;
+  }
+
+  .login__page h2 {
+    font-size: 13px;
+  }
+}

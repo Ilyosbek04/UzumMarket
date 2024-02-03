@@ -1,0 +1,26 @@
+.not_find {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.not_find img {
+    width: 250px;
+}
+.not_find h2 {
+    font-size: 30px;
+    padding: 0 0 10px 0;
+}
+.not_find h4 {
+    padding: 0 0 15px 0;
+}
+.not_find button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--bg-py);
+    color: #fff;
+    cursor: pointer;
+}

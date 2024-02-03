@@ -1,0 +1,155 @@
+.Footer_bottom {
+  width: 60%;
+  height: 60px;
+  border-radius: 12px;
+  background-color: #e4e4e4;
+  margin: auto;
+  display: flex;
+  transition: .3s;
+  transition: calc(.3s);
+  cursor: pointer;
+  border: none;
+  margin-top: 40px;
+}
+
+.Footer_bottom:hover {
+  background-color: #c7c7c7;
+}
+
+.Footer_bottom h2 {
+  margin: auto;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 70px 0;
+}
+
+.footer_card {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer_card h4 {
+  font-size: 16px;
+  color: #000;
+  text-transform: capitalize;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-bottom: 20px;
+  font-weight: 500;
+  position: relative;
+  cursor: pointer;
+}
+
+.feter {
+  width: 100%;
+  height: 400px;
+}
+
+.footer_card ul li:noy(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer_card ul li {
+  font-size: 14px;
+  text-transform: capitalize;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #555;
+  display: block;
+  font-weight: 600;
+  margin-top: 10px;
+  cursor: pointer;
+  
+}
+
+.apple {
+  width: 90%;
+  display: flex;
+  margin-top: -15px;
+  gap: 10px;
+}
+
+.aplle_icon {
+  width: auto;
+  height: 50px;
+  display: flex;
+  gap: 5px;
+  padding: 10px 0;
+}
+
+.aplle_icon p {
+  margin: auto;
+  font-size: 14px;
+  margin-left: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+}
+
+.aplle_iconImg {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  overflow: hidden;
+}
+
+.aplle_iconImg img {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  object-fit: cover;
+}
+.iconkalar{
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+}
+.iconkalar img{
+  width: 35px;
+  height: 35px;
+  margin: auto;
+  object-fit: cover;
+  margin-left: 12px;
+}
+.hr{
+  margin-top: -30px;
+}
+.ost{
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding: 12px 0;
+}
+.ost p{
+  font-size: 13px;
+  color: #555;
+}
+@media(max-width: 990px) {
+  .footer_card {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width: 550px) {
+  .footer_card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .Footer_bottom{
+    height: 50px;
+  }
+}
+@media(max-width: 900px) {
+  .ost {
+    display: none;
+  }
+  .hr{
+    display: none;
+  }
+}

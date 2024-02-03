@@ -1,0 +1,10 @@
+.navbar__bottom{
+    padding: 10px 0 16px;
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    color: #555;
+    overflow: auto;
+    justify-content: space-between;
+    white-space: nowrap;
+}
