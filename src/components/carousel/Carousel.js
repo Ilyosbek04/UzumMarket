@@ -4,7 +4,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
-import photo1 from "../../assets/main_page_banner (7).jpg";
 import photo2 from "../../assets/main_page_banner (8).jpg";
 import photo3 from "../../assets/main_page_banner (9).jpg";
 import photo4 from '../../assets/main_page_banner (10).jpg'
