@@ -23,9 +23,7 @@ function Carousel() {
         modules={[Pagination, Autoplay]}
         className="carousel__inner"
       >
-        <SwiperSlide>
-          <img src="https://images.uzum.uz/cm1d5m1uf2i84h4paoc0/main_page_banner.jpg" />
-        </SwiperSlide>
+        
         <SwiperSlide>
           <img
             className="carousel__desktop"
