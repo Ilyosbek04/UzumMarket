@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
+import photo1 from "../../assets/main_page_banner (7).jpg";
 import photo2 from "../../assets/main_page_banner (8).jpg";
 import photo3 from "../../assets/main_page_banner (9).jpg";
 import photo4 from '../../assets/main_page_banner (10).jpg'
@@ -22,9 +23,7 @@ function Carousel() {
         modules={[Pagination, Autoplay]}
         className="carousel__inner"
       >
-        <SwiperSlide>
-          <img src="https://images.uzum.uz/cm1d5m1uf2i84h4paoc0/main_page_banner.jpg" />
-        </SwiperSlide>
+    
         <SwiperSlide>
           <img
             className="carousel__desktop"
